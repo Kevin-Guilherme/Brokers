@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(images/back4.jpg);
+}
+
+fieldset {
+  border: 0;
+}
+
+body, input, select,textarea, button {
+  font-family: 'Bree Serif', serif;
+  font-size: 1em;
+}
+
+.navbar {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  font-size: 40px;   
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+}
+
+.navbar p{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);;
+  border: outset;
+  border-radius: 10px;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+
+.containerform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+ 
+    
+}
+ 
+.box {
+ width: 40%;
+ height: auto;
+ margin-bottom: 200px;
+}
